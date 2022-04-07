@@ -1,37 +1,22 @@
 # Project1
- ## Project 1
-- Project 1 will be a Scala console application that is retrieving data using Hive or MapReduce. Your job is to build a real-time news analyzer. This application should allow users to view the trending topics (e.g. all trending topics for news related to "politics", "tv shows", "movies", "video games", or "sports" only [choose one topic for project]). Or it can analyze data on any topic of your choice.
-- You must present a project proposal to trainer and be approved before proceeding with project. 
 
-### MVP:
-- ALL user interaction must come purely from the console application
-- scrape data from datasets from an API based on your topic of choice
-- Your console application must:
-    - query data to answer at least 6 analysis questions of your choice
-    - have a login system for all users with passwords
-        - 2 types of users: BASIC and ADMIN
-        - Users should also be able to update username and password
-- implement all CRUD operations
-- implement bucketing, and partitioning
-- can use hive with screenshots but make as program in 
-    IntelliJ or VSCode, too with appropriate dependencies
+- This project is a data analyzer for a database on dogs going into shelters, when they're found/available for adoption, and all of their known characteristics. The program runs entirely in the console and queries data ranging from what kind of dogs are most often put into shelters, the average age, as well as providing ways to find specific kinds of dogs up for adoption.
 
-### Stretch Goals:
-- Passwords must be encrypted
-- Export all results into a JSON file
-- find a trend
+### Project Features:
+- ALL user interaction comes from console application
+- Takes data from static file on local disk
+- Console application is able to:
+    - query data to answer 6 analysis questions of on dogs  choice
+    - have a login system for all users, as well as an admin login
+- implements all CRUD operations
+- implements partitioning
 
-### Presentations
-- You will be asked to run an analysis using the console application on the day of the presentation, so be prepared to do so.
-- We'll have 5-10 minutes a piece, so make sure your presentation can be covered in that time, focusing on the parts of your analysis you find most interesting.
 
-### Technologies
-- Hadoop MapReduce (optional)
+### Technologies Used
 - YARN 
 - HDFS
 - Scala 2.12
 - Hive
 - Git + GitHub
 
-### Due Date
-- Presentations will take place on Wednesday, 3/30.
+
