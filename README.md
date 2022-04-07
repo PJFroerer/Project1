@@ -7,9 +7,10 @@
 - Takes data from static file on local disk
 - Console application is able to:
     - query data to answer 6 analysis questions of on dogs  choice
-    - have a login system for all users, as well as an admin login
+    - have a login system for all users that saves to a json file, as well as an admin login
 - implements all CRUD operations
 - implements partitioning
+- Used IntelliJ to facilitate development
 
 
 ### Technologies Used
